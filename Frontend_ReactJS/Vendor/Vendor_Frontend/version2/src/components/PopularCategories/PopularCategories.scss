@@ -1,0 +1,20 @@
+.popCats{
+    background-color:#fdfdec;
+    margin-top: 25px;
+    color: #006600;
+    padding-top: 10px;
+
+    h3{
+       text-align: center;
+    }
+
+    .images{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 230px;
+        }
+    }
+}

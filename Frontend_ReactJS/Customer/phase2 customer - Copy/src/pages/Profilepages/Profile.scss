@@ -1,0 +1,48 @@
+.profile {
+  display: flex;
+
+  position: relative;
+
+  .left {
+    flex: 1;
+    height: 100%;
+    button {
+      width: 100%;
+    }
+  }
+
+  .right {
+    flex: 4;
+    height: 500px;
+    align-items: center;
+
+    .register {
+      text-align: center;
+      align-items: center;
+      margin-top: 30px;
+      margin-left: 120px;
+      background-color: #fbfbc6;
+      width: 700px;
+
+      height: 420px;
+      padding-top: 30px;
+      padding-left: 80px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 015px;
+
+      button {
+        position: relative;
+        min-width: 80px;
+        height: 40px;
+        border-radius: 5px 5px 5px 5px;
+        margin: auto;
+
+        color: white;
+        background: darkgreen;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 015px;
+
+        border: none;
+        margin-top: 10px;
+      }
+    }
+  }
+}

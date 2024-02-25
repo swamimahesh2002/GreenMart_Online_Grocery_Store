@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "af4d879c-a3a4-4140-9c7d-12bf26971a4d",
+		"name": "security",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"admin@123\",\r\n    \"password\":\"admin123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,28 @@
+.login{
+    text-align: center;
+    margin-top: 50px;
+
+    input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .register{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .btn{
+        margin-top: 20px;
+
+        button{
+            border-radius: 5px;
+            background-color: #006600;
+            border: none;
+            height: 40px;
+            width: 100px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}

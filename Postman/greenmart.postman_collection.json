@@ -1,0 +1,1056 @@
+{
+	"info": {
+		"_postman_id": "c9191fe3-aeb1-421f-800a-06d3e5fcba8d",
+		"name": "greenmart",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "admin login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"admin@123\",\r\n    \"password\":\"admin123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get pdt by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get pdts by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/category=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"category=3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get pdts from vendor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/vendor=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"vendor=2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get new pdts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get expired pdts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/expired",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"expired"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin add pdts",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/add=20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"add=20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin update pdts",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/update=7/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"update=7",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin delete pdts",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/products/delete=12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"products",
+						"delete=12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get vendors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/vendors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"vendors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get vendor by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/vendors/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"vendors",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin add vendor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/vendors/add=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"vendors",
+						"add=1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin delete vendor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/vendors/delete=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"vendors",
+						"delete=1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get customers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/customers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"customers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get customer by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/customers/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"customers",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin delete customer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/customers/delete=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"customers",
+						"delete=2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin get orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin pending orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/pending",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"pending"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin cancelled orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/cancelled",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"cancelled"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin orders by customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin orders by vendor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/vendor=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"vendor=1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin orders by product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/product=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"product=3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin orders by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/orders/category=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"orders",
+						"category=1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin vendor daily revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin daily revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin vendor monthly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue/5/month=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue",
+						"5",
+						"month=2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin monthly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue/month=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue",
+						"month=2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin vendor yearly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue/2/yearly=2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue",
+						"2",
+						"yearly=2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "admin yearly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/admin/revenue/yearly=2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"admin",
+						"revenue",
+						"yearly=2022"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Luffy\",\r\n    \"lastName\":\"D. Monkey\",\r\n    \"email\":\"luffy@com\",\r\n    \"password\":\"luffy\",\r\n    \"mobNo\":\"1234567890\",\r\n    \"address\":\"west\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\":\"Luffy\",\r\n    \"lastName\":\"NIKA\",\r\n    \"email\":\"luffy@com\",\r\n    \"mobNo\":\"1234567890\",\r\n    \"address\":\"world\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/update/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"update",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor change password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\":\"akshay123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/changep/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"changep",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor delete",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/delete/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"delete",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor approved products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/products/approved/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"products",
+						"approved",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor not approved products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/products/not-approved/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"products",
+						"not-approved",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor add product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productName\":\"cucumber \",\r\n    \"rate\":40.0,\r\n    \"productDescription\":\"small\",\r\n    \"image\":\"xyz\",\r\n    \"expiryDate\":\"2023-02-27\",\r\n    \"productQuantity\":40\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/add-product=2/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"add-product=2",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor update product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"productName\": \"kashmir apples\",\r\n        \"rate\": 150.0,\r\n        \"discount\": 10,\r\n        \"productDescription\": \"fresh\",\r\n        \"image\": \"xyz\",\r\n        \"expiryDate\": \"2023-03-03\",\r\n        \"productQuantity\": 25,\r\n        \"averageRating\": 4.0\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/update-product=2/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"update-product=2",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor delete products",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/products/delete/20",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"products",
+						"delete",
+						"20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor expired products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/products/expired/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"products",
+						"expired",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor products by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/productsbycat/2/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"productsbycat",
+						"2",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor products by rating",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/productsbyrating/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"productsbyrating",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor daily revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/revenue/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"revenue",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor monthly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/revenue/1/month=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"revenue",
+						"1",
+						"month=2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "vendor yearly revenue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/vendor/revenue/2/yearly=2022",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"vendor",
+						"revenue",
+						"2",
+						"yearly=2022"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

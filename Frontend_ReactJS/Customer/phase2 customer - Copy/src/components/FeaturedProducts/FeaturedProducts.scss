@@ -1,0 +1,35 @@
+.featuredProducts {
+    margin: 100px 200px;
+    position: relative;
+    align-items: center;
+    
+  
+    .top {
+     
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      width: fit-content;
+      
+     
+      left: 0;
+      right: 0;
+      bottom: 80 px;
+      gap: 10px;
+      margin: auto;
+
+      h1{
+        color: #006600;
+        margin-bottom: 10px;
+      }
+    }
+     
+    .bottom{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      
+    }
+  }
+  

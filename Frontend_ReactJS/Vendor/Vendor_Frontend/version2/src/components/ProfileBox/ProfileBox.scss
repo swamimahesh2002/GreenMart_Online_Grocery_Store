@@ -1,0 +1,27 @@
+.box{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    z-index: 999;
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #006600;
+    border-radius: 5px;
+    background-color: #fdfdec;
+
+    .links{
+        font-size: 13px;
+
+        .mylink{
+            
+            button{
+                color: white;
+            background-color: red;
+            border: none;
+            margin-top: 5px;
+            border-radius: 3px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.ordertable {
+  display: flex;
+  position: relative;
+
+  .left {
+    flex: 1;
+    height: 100%;
+    button {
+      width: 100%;
+    }
+  }
+  .right {
+    flex: 4;
+
+    margin-left: 50px;
+    .table {
+      width: auto;
+      border: 1px solid;
+      border-radius: 10px;
+      height: 400px;
+    }
+    td,
+    th {
+      border: 1px solid black;
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

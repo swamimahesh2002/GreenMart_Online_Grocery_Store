@@ -1,0 +1,29 @@
+.editProduct{
+    text-align: center;
+    margin-top: 50px;
+
+    input{
+        width: 300px;
+        height: 40px;
+    }
+    .button{
+        margin-top: 20px;
+
+        .edit{
+            
+            button{
+                background-color: rgb(11, 152, 247);
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-weight: 600;
+                height: 40px;
+                width: 90px;
+                font-size: 18px;
+                align-content: center;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.add{
+    text-align: center;
+    margin-top: 50px;
+
+    input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .btn{
+        margin-top: 20px;
+
+        button{
+            border-radius: 5px;
+            background-color: #0040ff;
+            border: none;
+            height: 40px;
+            width: 200px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}

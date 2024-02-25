@@ -1,0 +1,64 @@
+.products{
+    display: flex;
+    color: #006600;
+
+    .left{
+        flex: 1;
+        margin: 20px;
+        position: sticky;
+        height: 100%;
+        top: 20px;
+
+        button{
+            margin-top: 15px;
+            border: none;
+            background-color: #006600;
+            color: #fdfdec;
+        }
+
+        .filter{
+            font-size: 18px;
+            align-content: center;
+
+            span{
+                font-weight: 500;
+            }
+
+            .categories{
+                font-size: 14px;
+                align-content: center;
+                
+                input{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .sort{
+            font-size: 18px;
+            align-content: center;
+            margin-top: 10px;
+
+            span{
+                font-weight: 500;
+            }
+
+            input{
+                margin-right: 5px;
+            }
+
+            .price{
+                font-size: 14px;
+            }
+
+            .rating{
+                font-size: 14px;
+            }
+        }
+    }
+
+    .right{
+        flex: 3;
+        margin-top: 20px;
+    }
+}

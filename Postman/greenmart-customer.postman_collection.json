@@ -1,0 +1,381 @@
+{
+	"info": {
+		"_postman_id": "8f97a6b6-417f-4223-b693-14bf2c3d47d8",
+		"name": "greenmart-customer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get cusomer by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all customer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update customer password",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"firstName\": \"himanshu\",\r\n    \"lastName\": \"lakhpati\",\r\n    \"email\": \"hima@gmail.com\",\r\n    \"mobNo\": \"8989898786\",\r\n    \"address\": \"pune\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update customer Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"firstName\": \"himanshu\",\r\n    \"lastName\": \"lakhpati\",\r\n    \"email\": \"hima@gmail.com\",\r\n    \"mobNo\": \"8989898786\",\r\n    \"address\": \"pune\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete customer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/product/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"product",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add product in cart",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{       \"id\":  \"5\", \r\n     \"productName\": \"potato\",\r\n        \"rate\": 25.0,\r\n        \"discount\": 0,\r\n        \"productDescription\": \"nutrient\",\r\n        \"image\": \"xyz\",\r\n        \"expiryDate\": \"2023-03-12\",\r\n        \"productQuantity\": 15,\r\n        \"averageRating\": 3.0,\r\n        \"available\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/cart/1/qty/6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"cart",
+						"1",
+						"qty",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view cart",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "update cart",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/cart/1/qty/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"cart",
+						"1",
+						"qty",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product by category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get product by rate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get product by name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get product by review rating",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "place an Order",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"quantity\": 10,\r\n        \"product\": {\r\n            \"id\": 6,\r\n            \"productName\": \"apples\",\r\n            \"rate\": 100.0,\r\n            \"discount\": 10,\r\n            \"productDescription\": \"fresh\",\r\n            \"image\": \"xyz\",\r\n            \"expiryDate\": \"2023-02-26\",\r\n            \"productQuantity\": 15,\r\n            \"averageRating\": 4.0,\r\n            \"category\": {\r\n                \"id\": 1,\r\n                \"categoryName\": \"fruits\"\r\n            },\r\n            \"available\": true\r\n        },\r\n        \"vendor\": {\r\n            \"id\": 1,\r\n            \"firstName\": \"mahesh\",\r\n            \"lastName\": \"swami\",\r\n            \"email\": \"mahesh@com\",\r\n            \"password\": \"mahesh\",\r\n            \"mobNo\": \"1234567890\",\r\n            \"address\": \"nanded\",\r\n            \"userRole\": \"VENDOR\",\r\n            \"regDate\": \"2023-02-23\",\r\n            \"authenticate\": true\r\n        }\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/order/1/mode/0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"order",
+						"1",
+						"mode",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "write review(give star) Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/greenmart/customer/product/review/1/product/1/rating/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"greenmart",
+						"customer",
+						"product",
+						"review",
+						"1",
+						"product",
+						"1",
+						"rating",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Orders",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get cancelled Orders",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get orderdetails",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "register Customer",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "cancel order",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "remove cartitem from cart",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get product by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

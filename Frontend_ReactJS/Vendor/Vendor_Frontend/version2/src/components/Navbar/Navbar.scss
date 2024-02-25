@@ -1,0 +1,55 @@
+.navbar{
+    height: 80px;
+    background-color: #fdfdec;
+
+    .wrapper{
+        padding: 10px 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        color: #006600;
+        
+        .item{
+            align-items: center;
+        }
+
+        .left{
+            align-items: center;
+            font-size: 30px;
+            letter-spacing: 2px;
+
+        }
+
+        .center{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .right{
+            align-items: center;
+            display: flex;
+            gap: 20px;
+
+            .personIcon{
+                cursor: pointer;
+            }
+
+            .search{
+
+                .pdts{
+                    background-color: white;
+                    width: 185px;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    border-radius: 5px;
+                }
+
+                .selected{
+                    //box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,55 @@
+.image{
+    display: flex;
+
+    .left{
+        flex: 1;
+        height: 160px;
+        border: black solid 1px;
+        width: fit-content;
+        
+    }
+
+    .right{
+        flex: 2;
+
+        .name{
+            font-size: 19px;
+            font-weight: 600;
+        }
+
+        .price{
+            display: flex;
+            gap: 20px;
+        }
+
+        .buttons{
+            display: flex;
+            gap: 10px;
+            margin-top: 5px;
+
+            .edit{
+                
+                button{
+                    border: none;
+                    color: white;
+                    background-color: rgb(11, 152, 247);
+                    border-radius: 5px;
+                    width: 50px;
+                    height: 30px;
+                }
+            }
+
+            .delete{
+                
+                button{
+                    border: none;
+                    color: white;
+                    background-color: red;
+                    border-radius: 5px;
+                    width: 75px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

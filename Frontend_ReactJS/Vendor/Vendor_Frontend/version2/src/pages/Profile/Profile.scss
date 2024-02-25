@@ -1,0 +1,43 @@
+.profile{
+    text-align: center;
+    margin-top: 50px;
+
+    input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .buttons{
+        display: flex;
+        gap: 10px;
+        margin-top: 20px;
+        justify-content: center;
+
+
+        .edit{
+            
+            button{
+                border: none;
+                color: white;
+                background-color: rgb(11, 152, 247);
+                border-radius: 5px;
+                width: 50px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+
+        .delete{
+            
+            button{
+                border: none;
+                color: white;
+                background-color: red;
+                border-radius: 5px;
+                width: 75px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}

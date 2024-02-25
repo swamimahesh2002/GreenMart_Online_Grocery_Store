@@ -1,0 +1,51 @@
+.editProfile{
+    text-align: center;
+    margin-top: 50px;
+
+    div{
+        display: flex;
+        //justify-content: center;
+        //align-content: center;
+
+        h6{
+            width: 50%;
+            margin-left: 100px;
+            padding-left: 360px;
+            padding-top: 10px;
+        }
+
+        input{
+            width: 50%;
+            margin-right: 400px;
+        }
+
+
+    }
+
+    input{
+        width: 300px;
+        height: 40px;
+    }
+
+    .button{
+        margin-top: 20px;
+        justify-content: center;
+
+        .edit{
+            
+            button{
+                background-color: rgb(11, 152, 247);
+                border: none;
+                border-radius: 5px;
+                color: white;
+                font-weight: 600;
+                height: 40px;
+                width: 90px;
+                font-size: 18px;
+                align-content: center;
+                text-align: center;
+                justify-content: center;
+            }
+        }
+    }
+}

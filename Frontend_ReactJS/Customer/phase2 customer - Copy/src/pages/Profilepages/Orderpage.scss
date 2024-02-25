@@ -1,0 +1,53 @@
+.Orderpage {
+  display: flex;
+  position: relative;
+  row-gap: 20px;
+  gap: 20px;
+
+  .left {
+    flex: 1;
+    height: 100%;
+
+    button {
+      width: 100%;
+    }
+  }
+
+  .right {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+
+    .block {
+      border: 1px solid;
+      width: 900px;
+      display: flex;
+
+      .leftblock {
+        position: relative;
+        //display: flex;
+        flex-wrap: wrap;
+
+        background-color: white;
+        padding: 20px;
+        .item {
+          flex-direction: column;
+
+          align-items: center;
+          gap: 20px;
+          margin-bottom: 30px;
+          img {
+            width: 80px;
+            height: 100px;
+            object-fit: cover;
+          }
+        }
+      }
+      .rightblock {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.Updateprofile{
+    display: flex;
+    
+    position: relative;
+    
+
+    .left{
+        flex: 1;
+        height: 100%;
+        button{
+            width: 100%;
+        }
+    }
+
+    .right{
+        flex: 4;
+        height: 500px;
+        align-items: center;
+        
+     
+
+        .register{
+            text-align: center;
+            align-items: center ;
+            margin-top: 50px;
+            margin-left: 200px;
+            background-color: #fbfbc6;
+            width: 700px;
+            height: 420px;
+            padding-top: 30px;
+            padding-left: 80px;
+
+            button{
+                position: relative;
+                min-width: 100px;
+                height: 40px;
+                border-radius: 5px 5px 5px 5px;
+                margin: auto;
+                padding: 10px;
+                color: white;
+                background: darkgreen;
+                
+                border: none;
+            }
+            
+        }
+    }
+    
+}
